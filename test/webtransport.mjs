@@ -279,7 +279,7 @@ describe("WebTransport", () => {
         success(engine, h3Server, done);
       });
     });
-  })
+  });
 
   it("should send some binary data (server to client) (as Buffer)", (done) => {
     setup({}, ({ engine, h3Server, certificate }) => {
